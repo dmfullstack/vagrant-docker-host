@@ -9,3 +9,7 @@ Once the provisioning of the virtual machine has been completed, then simply typ
 `vagrant ssh`
 
 `sudo su -`
+
+`docker info`
+
+The above will confirm that Docker is installed and fully usable.
