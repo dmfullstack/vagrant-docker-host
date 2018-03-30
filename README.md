@@ -12,6 +12,8 @@ Once the provisioning of the virtual machine has been completed, then simply typ
 
 `docker info`
 
-The above will confirm that Docker is installed and usable.   
+The above will confirm that Docker is installed and usable.  The virtual machine is then ready to pull and run Docker images, e.g.
+
+`docker run hello-world`
 
 Note: if you get an error like: `docker: Error response from daemon: devmapper: Error activating devmapper device for`, then reboot the Vagrant virtual machine and that seems to resolve the issue.
